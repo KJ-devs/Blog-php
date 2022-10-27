@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    background-color: #eceaea;
+}
+a {
+  text-decoration: none;
+  color: #0b1c22;
+}
+/* ========================================================================================= */
+/* =======================================  HEADER  ========================================*/
+/* ======================================================================================== */
+.main-head{
+    background-color:#0B1C22;
+    color:white;
+    width:100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+
+}
+
+.main-head h1 {
+    width: 60%;
+    margin-left: 2% ;
+    font-family: 'Orbitron' ;
+    font-size: 27px;
+}
+
+.main-head ul {
+    display: flex;
+    width: 40%;
+    list-style-type: none;
+    font-size:larger;
+}
+
+.main-head li {
+    margin-top : 13px;
+    text-transform: uppercase;
+}
+
+.main-head a {
+    text-decoration: none;
+    color : white;
+    
+} 
+
+.main-head ul a {
+    transition: color 700ms;
+    margin-right: 75px;
+}
+
+.main-head ul a:hover {
+    color: red;
+}
+
+.main-head span {
+    transition: color 700ms;
+    color : #B83F3D;
+}
+
+.main-head a:hover span {
+    color : red;
+}
+
+
+
+@media screen and (max-width: 1550px) {
+    .main-head h1 {
+        width: 58%;
+    }
+
+    .main-head ul a {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .main-head h1 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .main-head h1 {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main-head h1 {
+        width: 40%;
+        border-right: 2px solid white;
+        text-align: center;
+        padding-right: 10px;
+    }
+    .main-head ul {
+        width: 60%;
+        margin-top: 17px;
+        padding-left: 6px;
+    }
+
+    .main-head a {
+        margin-right: 2px;
+        font-size: small;
+    }
+}
+
+/* ======================================================================================== */
+/* =======================================  ACCUEIL  ====================================== */
+/* ======================================================================================== */
+
+/* ========= BACKGROUND ========= */
+
+.bg-accueil{
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 386px 80px 386px 80px;
+    color : white;
+}
+
+.bg-accueil-img{
+    background-image: url(../images/bg-accueil1.jpg);
+}
+.bg-accueil h1 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 6em;
+}
+
+.bg-accueil p {
+    font-size: 2em;
+}
+
+/* ========= SUJET ========= */
+
+
+.section-sujet-title{
+    background-color: #0B1C22;
+    color : white;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 3%;
+}
+
+.sujets {
+    display : flex;
+    padding: 7%;
+    background-color: #d4e1f3;
+    color :#12335a;
+
+
+}
+
+.upperline{
+    border-top: solid 3px white;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+}
+
+.sujet {
+    margin: 3%;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.15);
+    background-color: #e6e6e6;
+}
+
+.title-sujet {
+    font-size: 1.2em;
+    margin-left: 5px;
+    padding-left: 10px;
+
+}
+
+.main-sujet {
+    margin-left: 25px;
+}
+
+.red-sujet{
+    text-align: right;
+    margin-right: 12px;
+}
+
+/* ========= BLOG ========= */
+
+.section-blog {
+    background-color: #0B1C22;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.section-blog h1 {
+    font-size: 3.2em;
+}
+
+.section-blog p {
+    font-size: 1.4em;
+    margin-bottom: 80px;
+}
+
+.section-blog a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+/* ========= CONTACT ========= */
+
+.findus {
+    text-align: center;
+    padding: 400px;
+    background-size: cover;
+    color: white;
+}
+
+.findus-bg{
+    background-image: url(../images/findus.jpg);
+}
+
+.findus h1 {
+    margin-top:0px;
+    margin-bottom: 4%;
+    font-size: 4em;
+}
+
+
+.lastpara {
+    margin-bottom: 35px;
+}
+
+.findus a {
+    background-color: white;
+    color : black;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+/* ========================================================================================= */
+/* =======================================  CONNEXION  ===================================== */
+/* ========================================================================================= */
+
+
+.connexion-main {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color : #0B1C22;
+}
+
+.connexion-main h1 {
+    font-size: 3.3em;
+    margin-bottom: 0;
+}
+
+.connexion-main p {
+    margin-top: 2px;
+    margin-bottom: 35px;
+}
+
+.connexion input {
+    border : none;
+    border-bottom: #0B1C22 1px solid;
+    background-color: #eceaea;
+    margin : 1%;
+    outline: none;
+}
+
+.connexion-main button {
+    padding: 10px 20px 10px 20px;
+    background-color: #eceaea;
+    border: #0e242c 1px solid;
+    border-radius:30px;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.308);
+    transition: all 700ms;
+    margin-top: 16px;
+}
+
+.connexion-main button:hover {
+    background-color: #0e242c;
+    color : white;
+}
+
+/* ========================================================================================= */
+/* ======================================  INSCRIPTION  ==================================== */
+/* ========================================================================================= */
+
+.inscription-main {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color : #0B1C22;
+}
+
+.inscription-main h1 {
+    font-size: 3.3em;
+    margin-bottom: 0;
+}
+
+.inscription-main p {
+    margin-top: 2px;
+    margin-bottom: 35px;
+}
+
+.inscription input {
+    border : none;
+    border-bottom: #0B1C22 1px solid;
+    margin : 1%;
+    background-color: #eceaea;
+    outline: none;
+}
+
+.inscription-main button {
+    padding: 10px 20px 10px 20px;
+    background-color: #eceaea;
+    border: #0B1C22 1px solid;
+    border-radius:30px;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.308);
+    transition: all 700ms;
+    margin-top: 16px;
+}
+
+.inscription-main button:hover {
+    background-color: #0B1C22;
+    color : white;
+}
+
+/* ========================================================================================= */
+/* ======================================  COMPTE  ==================================== */
+/* ========================================================================================= */
+
+.main-compte {
+    padding:200px;
+}
+.compte {
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.308);
+    padding-bottom: 20px;
+    border-radius: 5%;
+}
+
+.compte h1 {
+    font-size: 2.5em;
+    padding:30px;
+    padding-left: 40px;
+    margin-bottom: 0;
+}
+
+.compte h2{
+    font-size: 1.7em;
+    padding:18px;
+    margin-top: 0;
+}
+
+.compte p {
+    padding-left : 15px;
+}
+
+.compte li {
+    padding-left: 5px;
+}
+.buttonlog {
+    padding: 5px 20px 5px 20px;
+    background-color: #eceaea;
+    border: #0B1C22 1px solid;
+    border-radius:30px;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.178);
+    transition: all 700ms;
+    margin-top: 16px;
+    margin-left : 43%;
+}
+
+.buttonlog:hover {
+    background-color: #0B1C22;
+    color : white;
+}
+/* ======================================================================================== */
+/* =======================================  CONTACT  ====================================== */
+/* ======================================================================================== */
+
+
+.main-contact{
+    background-color:#eceaea;
+    color: #0B1C22;
+    padding: 100px;
+}
+
+.contact_title{
+    padding:15px;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 90%;
+}
+
+.dev_liste{
+    display: flex;
+    justify-content: center;
+}
+
+.dev_membre{
+    background-color: #e6e6e6;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
+    border-radius: 4px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 15px;
+    padding-bottom: 20px;
+    margin: 20px;
+    margin-bottom: 45px;
+}
+
+.dev_nom{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 19px;
+    color: #0B1C22;
+}
+
+.dev_social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.dev_photo{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.dev_texte{
+    max-height: 4.5em;
+    overflow: hidden;
+    white-space: pre-wrap;
+    padding-top: 25px;
+    margin-bottom:14px;
+}
+
+.job{
+    font-size: 75%;
+}
+
+.dev_comptes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.dev_comptes a{
+    text-decoration: none;
+}
+
+.dev_compte{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.dev_compte:hover{
+    transform: scale(1.20);
+}
+
+/*-------- MAP -------- */
+
+.map_iut{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 35px;
+}
+
+.nous_trouver{
+    padding-bottom: 10px;
+}
+
+/* === FOOTER === */
+
+.main-foot {
+background-color: #0B1C22;
+color:white;
+display: flex;
+padding-top: 75px;
+}
+
+.part {
+width: 90%;
+}
+
+.rights {
+color:rgba(255, 255, 255, 0.411);
+width: 20%;
+padding-bottom: 10px;
+margin-bottom: 0;
+}
+
+.part a{
+text-decoration: none;
+color: #FFEF44;
+border-bottom: 1px solid #FFEF44;
+transition: border 250ms ease-in-out;
+}
+
+.part a:hover{
+border-bottom: 3px solid #FFEF44;
+}
+/* ======================================================================================== /
+/ =======================================  CREER BLOG  ====================================== /
+/ ======================================================================================== */
+
+
+.creerblog-main {
+    padding :125px;
+}
+
+.creerblog h1 {
+    padding-left:20px;
+}
+
+.champs_creerArticle .titreblog, textarea{
+    border : none;
+}
+
+.champs_creerArticle .titreblog , textarea{
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.buttoncree {
+    padding: 5px 20px 5px 20px;
+    background-color: #eceaea;
+    border: #0B1C22 1px solid;
+    border-radius:30px;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.178);
+    transition: all 700ms;
+    margin-top: 16px;
+}
+
+.buttoncree:hover {
+    background-color: #0B1C22;
+    color : white;
+}
+textarea {
+    resize:none;
+}
+/* ========================================================================================= */
+/* ======================================  ALL ARTICLE  ==================================== */
+/* ========================================================================================= */
+
+.title_page {
+    text-align: center;
+    margin-top: 5em;
+    color: #0b1c22;
+  }
+  
+  .upperline_article {
+    border-top: solid 3.2px #0b1c22;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10px;
+    margin-bottom: 3em;
+  }
+  
+  .article {
+    height: 10em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 75em;
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin: 2.5em auto;
+  }
+  
+  .titre_sujet {
+    text-align: center;
+    color: #0b1c22;
+  }
+  
+  .liresuite {
+    text-align: right;
+  }
+
+/* ======================================================================================== /
+/ =======================================  UN BLOG  ====================================== /
+/ ======================================================================================== */
+
+.main-blog {
+    padding:200px;
+}
+
+.blogarticle {
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.178);
+    padding : 15px;
+    border-radius: 15px;
+}
+
+.blogarticle h1 {
+    padding: 15px;
+}
+
+.blogcommentaire input {
+    padding: 5px 20px 5px 20px;
+    background-color: #eceaea;
+    border: #0B1C22 1px solid;
+    border-radius:30px;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.178);
+    transition: all 700ms;
+    margin-top: 16px;
+}
+
+.blogcommentaire input:hover {
+    background-color: #0B1C22;
+    color : white;
+}
+
+.bloglistecommentaire h3{
+    border-top:black 2px solid;
+    width: 10%;
+    padding-top:8px;
+}
+
+.bloglistecommentaire {
+    margin-bottom: 15px;
+}
+
+
+/* ========================================================================================= */
+/* =======================================  FOOTER  ========================================*/
+/* ======================================================================================== */
+
+.main-foot {
+    background-color: #0e242c;
+    color:white;
+    display: flex;
+    padding-top: 75px;
+}
+
+.part {
+    width: 90%;
+}
+
+.rights {
+    color:rgba(255, 255, 255, 0.411);
+    width: 20%;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.part a{
+    text-decoration: none;
+    color: #FFEF44;
+    border-bottom: 1px solid #FFEF44;
+    transition: border 250ms ease-in-out;
+}
+
+.part a:hover{
+    border-bottom: 3px solid #FFEF44;
+}
+
